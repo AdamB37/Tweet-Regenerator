@@ -29,7 +29,8 @@ Developers/Learners will get practice working with Twitter’s REST APIs on the 
 - [ ] The artifact produced is properly licensed, preferably with the MIT license.
 
 <br/>
-<br/>
+
+
 ## Stretch
 
 - [ ] After retrieving the first fifty tweets, users can retrieve and view the next fifty of their most recent tweets from Twitter. (The API allows developers to get up to 50 tweets at a time.)
