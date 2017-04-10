@@ -7,7 +7,6 @@ This Tweet-reGenerator is a Twitter-dedicated, light-weight clone of MeetEdgar, 
 <br/>
 Building this app will require use of the Twitter REST API with OAuth (meaning that you will need to get an API key from Twitter in order to access the API), JavaScript, Node.js, Express, routing by way of Routes.js, MongoDB, and React.
 <br/>
-<br/>
 
 ## Context
 The life-span for a tweet is about 20 minutes, which means that most of your Twitter followers will not see your tweets the first time you post them. For this reason, re-tweeting your best content is a good idea.
@@ -15,7 +14,7 @@ The life-span for a tweet is about 20 minutes, which means that most of your Twi
 This web app will allow you to grab and store your best, evergreen content tweets and re-tweet them to your followers. By keeping your Twitter followers better informed and entertained, you will organically grow your Twitter audience faster.
 <br/>
 Developers/Learners will get practice working with Twitter’s REST APIs on the backend; and with creating and working with a database on the backend (CRUD).
-
+<br/>
 ## Specifications
 
 - [ ] App uses the Twitter API.
