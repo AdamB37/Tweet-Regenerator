@@ -36,8 +36,9 @@ Developers/Learners will get practice working with Twitter’s REST APIs on the 
 
 <br/>
 <br/>
-### Stretch
+## Stretch
 <br/>
+
 - [ ] After retrieving the first fifty tweets, users can retrieve and view the next fifty of their most recent tweets from Twitter. (The API allows developers to get up to 50 tweets at a time.)
 - [ ] Users can re-tweet saved tweets at a specified time interval:
 - - [ ] Immediately
@@ -48,4 +49,4 @@ Developers/Learners will get practice working with Twitter’s REST APIs on the 
 - [ ] Users can search for and save another user’s tweets by accessing and capturing their Twitter feed.
 - [ ] Users can search for and save tweets by hashtag or search term.
 - [ ] Users can organize saved tweets according to categories (use of filters).
-- [ ] Users can Tweet out a randomly selected tweet from the database with a specificied category.
+- [ ] Users can Tweet out a randomly selected tweet from the database with a specified category.
