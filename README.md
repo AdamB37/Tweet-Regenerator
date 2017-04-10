@@ -1,8 +1,6 @@
 # Tweet Regenerator
 
 ## Description
-
-<br/>
 A web application that will allow the developer-user to collect their tweets and save them to a database of “evergreen” (not dated, always relevant) tweets. They will then be able to retweet tweets stored in said database either at regular intervals, or manually.
 <br/>
 This Tweet-reGenerator is a Twitter-dedicated, light-weight clone of MeetEdgar, a social media management tool.
@@ -12,8 +10,6 @@ Building this app will require use of the Twitter REST API with OAuth (meaning t
 <br/>
 
 ## Context
-
-<br/>
 The life-span for a tweet is about 20 minutes, which means that most of your Twitter followers will not see your tweets the first time you post them. For this reason, re-tweeting your best content is a good idea.
 <br/>
 This web app will allow you to grab and store your best, evergreen content tweets and re-tweet them to your followers. By keeping your Twitter followers better informed and entertained, you will organically grow your Twitter audience faster.
@@ -21,8 +17,6 @@ This web app will allow you to grab and store your best, evergreen content tweet
 Developers/Learners will get practice working with Twitter’s REST APIs on the backend; and with creating and working with a database on the backend (CRUD).
 
 ## Specifications
-
-<br>
 
 - [ ] App uses the Twitter API.
 - [ ] Users can view up to fifty of their tweets from Twitter.
@@ -37,12 +31,11 @@ Developers/Learners will get practice working with Twitter’s REST APIs on the 
 <br/>
 <br/>
 ## Stretch
-<br/>
 
 - [ ] After retrieving the first fifty tweets, users can retrieve and view the next fifty of their most recent tweets from Twitter. (The API allows developers to get up to 50 tweets at a time.)
 - [ ] Users can re-tweet saved tweets at a specified time interval:
-- - [ ] Immediately
-- - [ ]At a specific time in the future
+  - [ ] Immediately
+  - [ ] At a specific time in the future
 - [ ] Users can view which saved tweets have been re-tweeted and when.
 - [ ] Users can edit saved tweets.
 - [ ] Users can delete saved tweets.
