@@ -20,6 +20,10 @@ let getRandomTweet = () => {
   return twitterDB.collection('tweets').find().limit(-1).skip(randomIndex).next()
 }
 
+let loadFiftyTweets = (tweets) => {
+  tweets = tweets.slice(0,50)
+  tweets.forEach(insertTweet)
+}
 let insertTweet = (tweet) => {
   twitterDB.collection('tweets').insert({'tweet': tweet.text})
 }
@@ -33,4 +37,5 @@ module.exports = {
   getRandomTweet,
   insertTweet,
   close,
+  loadFiftyTweets
 }

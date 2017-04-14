@@ -1,7 +1,8 @@
-import { React, ReactDOM } from '../global_imports'
-import App from './components/app'
+import React from 'react'
+import { render } from 'react-dom'
+import App from './app'
 
-ReactDOM.render(
+render(
   <App />,
   document.getElementById('app')
 )

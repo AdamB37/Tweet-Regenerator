@@ -17,15 +17,15 @@ Developers/Learners will get practice working with Twitter’s REST APIs on the 
 <br/>
 ## Specifications
 
-- [ ] App uses the Twitter API.
-- [ ] Users can view up to fifty of their tweets from Twitter.
+- [x] App uses the Twitter API.
+- [x] Users can view up to fifty of their tweets from Twitter.
 - [ ] When users send out a tweet, it is automatically saved to the database for future access.
-- [ ] Users can view their saved tweets (the ones in the database, not the ones from Twitter).
+- [x] Users can view their saved tweets (the ones in the database, not the ones from Twitter).
 - [ ] Users automatically re-tweet saved tweets at a specified interval (on the hour, for example).
 - [ ] UI provides an attractive, intuitive user experience.
 
-- [ ] Code is readable and well organized
-- [ ] The artifact produced is properly licensed, preferably with the MIT license.
+- [x] Code is readable and well organized
+- [x] The artifact produced is properly licensed, preferably with the MIT license.
 
 <br/>
 
