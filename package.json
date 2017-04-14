@@ -4,7 +4,8 @@
   "description": "## Description A web application that will allow the developer-user to collect their tweets and save them to a database of “evergreen” (not dated, always relevant) tweets. They will then be able to retweet tweets stored in said database either at regular intervals, or manually. <br/> This Tweet-reGenerator is a Twitter-dedicated, light-weight clone of MeetEdgar, a social media management tool. <br/> Building this app will require use of the Twitter REST API with OAuth (meaning that you will need to get an API key from Twitter in order to access the API), JavaScript, Node.js, Express, routing by way of Routes.js, MongoDB, and React. <br/>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node --presets env server/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,14 @@
   },
   "homepage": "https://github.com/AdamB37/Tweet-Regenerator#readme",
   "dependencies": {
-    "babel": "^6.23.0",
+    "dotenv": "^4.0.0",
+    "fs": "0.0.1-security",
     "mongodb": "^2.2.25",
     "twitter": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.3.3"
   }
 }
